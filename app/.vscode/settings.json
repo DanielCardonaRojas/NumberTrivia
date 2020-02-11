@@ -1,0 +1,4 @@
+{
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": true
+}

@@ -1,0 +1,14 @@
+name: utilities
+description: A new Flutter package project.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  equatable: ^1.0.0
+  dartz: ^0.8.6
+
+dev_dependencies:
