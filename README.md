@@ -1,6 +1,8 @@
+![](https://github.com/DanielCardonaRojas/NumberTrivia/workflows/Test/badge.svg)
+
 # number_trivia
 
-A new Flutter project.
+A number trivia app.
 
 ## Getting Started
 
