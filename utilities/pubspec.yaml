@@ -12,3 +12,5 @@ dependencies:
   dartz: ^0.8.6
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter

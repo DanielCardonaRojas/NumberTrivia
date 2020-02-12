@@ -1,11 +1,12 @@
 import 'dart:io';
-import "package:path/path.dart" show dirname;
-import 'dart:io' show Platform;
+import 'package:path/path.dart';
 
-main() {
-  print(dirname(Platform.script.toString()));
-}
+final testDirectory = join(
+  Directory.current.path,
+  Directory.current.path.endsWith('test') ? '' : 'test',
+);
 
 String fixture(String fileName) {
-  return File('../data/test/fixtures/$fileName').readAsStringSync();
+  final filePath = '$testDirectory/fixtures/$fileName';
+  return File(filePath).readAsStringSync();
 }

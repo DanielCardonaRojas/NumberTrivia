@@ -14,6 +14,7 @@ dependencies:
     path: ../utilities
 
 dev_dependencies:
+  # test: ^1.12.0
   flutter_test:
     sdk: flutter
   bloc_test: ^3.1.0
